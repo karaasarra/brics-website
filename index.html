@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les BRICS+</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titre-slide">Les BRICS+</h1>
+        <img src="brisk.png" alt="Logo des BRICS+" id="im1">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="origine.html">Origine du groupe</a></li>
+            <li><a href="objectif.html">Les objectifs des BRICS+</a></li>
+            <li><a href="impact.html">Impact économique</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="sec1">
+            <h2>Le BRICS+ en quelques mots</h2>
+            <p>Le BRICS+ regroupe plusieurs puissances émergentes qui cherchent à renforcer leur influence sur la scène internationale.</p>
+            <p>Ce site présente l’origine du groupe, ses objectifs dans la gouvernance mondiale, ainsi que son impact économique.</p>
+            <p>L’ensemble permet de comprendre comment cette alliance transforme progressivement l’équilibre global.</p>
+        </section>
+
+        <section class="sec2">
+            <table>
+                <caption>Chronologie des BRICS+</caption>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Évènement</th>
+                        <th>Lien</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2001</td>
+                        <td>Création du concept BRIC</td>
+                        <td><a href="#periode-2001">Voir détails</a></td>
+                    </tr>
+                    <tr>
+                        <td>2006</td>
+                        <td>Première réunion des BRIC</td>
+                        <td><a href="#periode-2006">Voir détails</a></td>
+                    </tr>
+                    <tr>
+                        <td>2009</td>
+                        <td>Premier sommet officiel</td>
+                        <td><a href="#periode-2009">Voir détails</a></td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>Entrée de l’Afrique du Sud</td>
+                        <td><a href="#periode-2010">Voir détails</a></td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>Expansion des BRICS+</td>
+                        <td><a href="#periode-2023">Voir détails</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <aside>
+                <div id="periode-2001" class="periode">
+                    <h3>2001 – Création du concept BRIC</h3>
+                    <p>Le terme BRIC est inventé par Jim O’Neill pour désigner les pays émergents :</p>
+                    <p>Brésil, Russie, Inde, Chine.</p>
+                </div>
+
+                <div id="periode-2006" class="periode">
+                    <h3>2006 – Première réunion BRIC</h3>
+                    <p>Les ministres des Affaires étrangères se réunissent à l’ONU pour la première fois.</p>
+                </div>
+
+                <div id="periode-2009" class="periode">
+                    <h3>2009 – Premier sommet officiel</h3>
+                    <p>Le premier sommet BRIC se tient à Ekaterinbourg, en Russie.</p>
+                </div>
+
+                <div id="periode-2010" class="periode">
+                    <h3>2010 – Entrée de l’Afrique du Sud</h3>
+                    <p>Le groupe devient officiellement BRICS avec l’ajout de l’Afrique du Sud.</p>
+                </div>
+
+                <div id="periode-2023" class="periode">
+                    <h3>2023 – Expansion BRICS+</h3>
+                    <p>Plusieurs nouveaux pays sont invités à rejoindre le groupe, marquant une nouvelle étape géopolitique.</p>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <ol>
+            <li><a href="https://www.britannica.com/topic/BRICS">Britannica – « BRICS »</a></li>
+            <li><a href="https://www.obsfrbrics.org/">Observatoire français des BRICS (OFB)</a></li>
+            <li><a href="https://bricscooperation.com/">BRICS Portal</a></li>
+            <li><a href="https://geoconfluences.ens-lyon.fr/glossaire/bric">Géoconfluences – « BRICS+ (anciennement BRIC puis BRICS) »</a></li>
+        </ol>
+    </footer>
+
+    <script>
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        if (window.location.hash) {
+            history.replaceState(null, document.title, window.location.pathname + window.location.search);
+        }
+        window.addEventListener('load', () => {
+            window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        });
+    </script>
+</body>
+</html>

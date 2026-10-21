@@ -1,0 +1,172 @@
+video {
+    height: 500px;
+    width: 600px;
+}
+
+/* ---------- LISTE ---------- */
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: sticky;
+}
+
+ul li {
+    margin: 4px;
+    border-radius: 10px;
+    border: 1px solid #B67332;
+    background-color: #EEE6D8;
+    padding: 10px;
+    width: 200px;
+    list-style: none;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #93441A;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+ul li:hover {
+    background-color: #DAAB3A;
+    transform: scale(1.05);
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+/* ---------- PAGE ---------- */
+body {
+    background-color: #e5e7e6;
+}
+
+/* ---------- SECTION ---------- */
+section {
+    background-color: rgba(218, 171, 58, 0.25);
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+article {
+    flex: 2;
+    padding: 15px;
+}
+
+aside {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ---------- TEXTES ---------- */
+h1 {
+    color: #93441A;
+    padding: 5px;
+}
+
+p {
+    padding: 10px;
+    margin: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    color: #B67332;
+}
+
+a {
+    text-decoration: none;
+    color: #B67332;
+    font-family: cursive;
+}
+
+/* ---------- LISTE ORDONNÉE ---------- */
+ol {
+    list-style-type: decimal;
+    color: #93441A;
+    padding-left: 30px;
+    font-weight: bolder;
+}
+
+ol li {
+    margin-bottom: 5px;
+}
+
+li:hover {
+    font-size: larger;
+}
+
+/* ---------- IMAGES ---------- */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* ---------- TABLE ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+    font-family: "Segoe UI", cursive;
+    background-color: #EEE6D8;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(147, 68, 26, 0.25);
+}
+
+th {
+    background: linear-gradient(135deg, #B67332, #93441A);
+    color: #EEE6D8;
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+td {
+    padding: 18px;
+    background-color: #FFF8EE;
+    color: #93441A;
+}
+
+tr:nth-child(even) td {
+    background-color: #EEE6D8;
+}
+
+td a {
+    text-decoration: none;
+    color: #B67332;
+    font-weight: 600;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+td a:hover {
+    color: #93441A;
+    transform: translateX(8px);
+}
+
+tr:hover td {
+    background-color: #DAAB3A;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 700px) {
+    section {
+        flex-direction: column;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    ul li {
+        width: 100%;
+    }
+}
